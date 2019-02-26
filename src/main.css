@@ -1,0 +1,35 @@
+body {
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+#image-list {
+    margin: 20px;
+}
+
+#image-list li {
+    list-style-type: none;
+    width: 250px;
+    min-height: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 8px;
+} 
+
+#image-list img {
+    width: 100%;
+
+}
